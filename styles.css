@@ -1,0 +1,27 @@
+body {
+    background-color: darkslateblue;
+    display: flex;
+}
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    width: 80vw;
+    height: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.links {
+    border: 1px white solid;
+    text-align: center;
+}
+
+.left-sidebar {
+    background-color: beige;
+    width: 20vw;
+    height: 80vw;
+    margin-right: 8px;
+    padding: 8px;
+}
