@@ -5,29 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wise Boutique</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <div class="left-sidebar">
         <div>
-            <p>filters</p>
+            <p>Q1</p>
+            <button onclick="addSeven()">Click Me!</button>
+        </div>
+        <div>
+            <p>Q2</p>
+            <button onclick="multiply()">Click Me!</button>
+        </div>
+        <div>
+            <p>Q3</p>
+            <button onclick="capitalize()">Click Me!</button>
+        </div>
+        <div>
+            <p>Q4</p>
+            <button onclick="lastLetter()">Click Me!</button>
         </div>
     </div>
 
-    <div class="header">
-        <div class="links">
-            <p>T-Shirts</p>
+    <div class="right-side">
+        <div class="header">
+            <div class="links">
+                <p>T-Shirts</p>
+            </div>
+            <div class="links">
+                <p>Pants</p>
+            </div>
+            <div class="links">
+                <p>Jackets</p>
+            </div>
+            <div class="links">
+                <p>Shoes</p>
+            </div>
         </div>
-        <div class="links">
-            <p>Pants</p>
-        </div>
-        <div class="links">
-            <p>Jackets</p>
-        </div>
-        <div class="links">
-            <p>Shoes</p>
+    
+        <div class="center-content">
+            <h1>Enter a number here:</h1>
+            <input type="text" id="inputNum" required>
+            <button type="submit" onclick="fizzbuzz()">Submit</button>
+
+            <p></p>
+            <div id="result"></div>
         </div>
     </div>
-
+    
+  
 
 </body>
 </html>
